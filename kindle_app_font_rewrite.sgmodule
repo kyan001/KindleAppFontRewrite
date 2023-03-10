@@ -1,5 +1,5 @@
-#!name=Kindle Font Rewrite
-#!desc=Kindle APP Yuan Font Rewrite
+#!name=Kindle APP Font Rewrite
+#!desc=Kindle APP Font Costomization
 
 [URL Rewrite]
 ^https://s3.cn-north-1.amazonaws.com.cn/maes-appexpan-protected-prod/STFontSC/STKaitiSC.ttf.+ https://github.com/kyan001/KindleAppFontRewrite/raw/main/Modified/STKaitiSC.ttf 302
