@@ -1,0 +1,11 @@
+#!name=Kindle Font Rewrite
+#!desc=Kindle APP Yuan Font Rewrite
+
+[URL Rewrite]
+^https://s3.cn-north-1.amazonaws.com.cn/maes-appexpan-protected-prod/STFontSC/STKaitiSC.ttf.+ https://github.com/kyan001/KindleAppFontRewrite/raw/main/Modified/STKaitiSC.ttf 302
+^https://s3.cn-north-1.amazonaws.com.cn/maes-appexpan-protected-prod/STFontSC/STSongSC.ttf.+ https://github.com/kyan001/KindleAppFontRewrite/raw/main/Modified/STSongSC.ttf 302
+^https://s3.cn-north-1.amazonaws.com.cn/maes-appexpan-protected-prod/STFontSC/STYuanMedium-2018-02-16.ttf.+ https://github.com/kyan001/KindleAppFontRewrite/raw/main/Modified/STYuanMedium-2018-02-16.ttf 302
+# ^https://s3.cn-north-1.amazonaws.com.cn/maes-appexpan-protected-prod/STFontSC/STHeitiSC.ttf.+
+
+[MITM]
+hostname = %APPEND% s3.cn-north-1.amazonaws.com.cn
