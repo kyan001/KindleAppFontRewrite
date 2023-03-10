@@ -9,7 +9,6 @@ Use HTTPS URL Rewrites to Costomize iOS/iPadOS Kindle APP Fonts.
 * `STSongSC.ttf` <-> `TsangerMingKai-W03.ttf`
 * `STYuanMedium-2018-02-16.ttf` <-> `TsangerYunHei-W03.ttf`
 
-
 ## Usage
 1. Open iOS/iPadOS Kindle APP -> Manage Fonts -> Delete All Downloaded Fonts.
 2. Open Shadowrocket -> Make sure CA Ceritification is installed for MITM HTTPS URL Rewrite.
